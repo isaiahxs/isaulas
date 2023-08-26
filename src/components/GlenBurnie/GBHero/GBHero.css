@@ -64,10 +64,9 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* margin: auto; */
     text-align: center;
+    /* width: 100%; */
 }
 
 .contact-heading-container {
@@ -89,6 +88,14 @@
 @media screen and (max-width: 1000px) {
     .hero-section {
         flex-direction: column;
+    }
+
+    .hero-information {
+        margin-right: 0px;
+    }
+
+    .hero-buttons-container {
+        margin-bottom: 20px;
     }
 
     .hero-image {

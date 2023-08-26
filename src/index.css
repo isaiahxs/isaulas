@@ -29,7 +29,7 @@ button {
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
   font-weight: bold;
-  transition: 0.3s all;
+  transition: 0.7s all;
 }
 
 button:hover {
