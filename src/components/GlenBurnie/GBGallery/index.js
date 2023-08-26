@@ -1,4 +1,8 @@
 import React, { useRef, useEffect } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import behind_lines from '../../../assets/images/GBCuts/behind-lines.png';
 import blade from '../../../assets/images/GBCuts/blade.jpg';
 import blue_dye from '../../../assets/images/GBCuts/blue-dye.jpg';
@@ -17,58 +21,103 @@ import womans_style from '../../../assets/images/GBCuts/womans-style.png';
 import './GBGallery.css';
 
 export default function GBGallery() {
-    const galleryRef = useRef(null);
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 700,
+        slidesToShow: 3,
+        slidesToScroll: 3,
 
-    useEffect(() => {
-        // Auto-scroll the gallery
-        const gallery = galleryRef.current;
-        let scrollAmount = 0;
-        let slideTimer = setInterval(() => {
-            gallery.scrollLeft = scrollAmount;
-            scrollAmount += 2; // Adjust the scrolling speed as needed
-            if (scrollAmount >= gallery.scrollWidth - gallery.clientWidth) {
-                scrollAmount = 0;
-            }
-        }, 50); // Adjust the interval for smoothness
-
-        // Pause auto-scrolling when user interacts with the gallery
-        gallery.addEventListener('mouseover', () => {
-            clearInterval(slideTimer);
-        });
-        gallery.addEventListener('mouseout', () => {
-            slideTimer = setInterval(() => {
-                gallery.scrollLeft = scrollAmount;
-                scrollAmount += 2; // Adjust the scrolling speed as needed
-                if (scrollAmount >= gallery.scrollWidth - gallery.clientWidth) {
-                    scrollAmount = 0;
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 }
-            }, 50); // Adjust the interval for smoothness
-        });
-
-        return () => {
-            clearInterval(slideTimer);
-        };
-    }, []);
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    };
 
     return (
-        <div className='gallery-outer-container'>
-            <div className='gallery-inner-container' ref={galleryRef}>
-                <img src={behind_lines} alt='Image 0' className='gallery-image' />
-                <img src={blade} alt='Image 1' className='gallery-image' />
-                <img src={blue_dye} alt='Image 2' className='gallery-image' />
-                <img src={client_cut} alt='Image 3' className='gallery-image' />
-                <img src={curls} alt='Image 4' className='gallery-image' />
-                <img src={fade_behind} alt='Image 5' className='gallery-image' />
-                {/* <img src={fili} alt='Image 6' className='gallery-image' /> */}
-                <img src={heart_design} alt='Image 7' className='gallery-image' />
-                <img src={highlight_curls} alt='Image 8' className='gallery-image' />
-                <img src={kids_haircut} alt='Image 9' className='gallery-image' />
-                <img src={line_behind} alt='Image 10' className='gallery-image' />
-                <img src={makeup} alt='Image 11' className='gallery-image' />
-                <img src={red_dye} alt='Image 12' className='gallery-image' />
-                <img src={side_lines} alt='Image 13' className='gallery-image' />
-                <img src={womans_style} alt='Image 14' className='gallery-image' />
+        <div className='gallery-section'>
+            <div className='home-header-container'>
+                <h1 className='home-header'>Featured Gallery</h1>
+            </div>
+
+            <div className="slider-container">
+                <Slider {...settings}>
+                    <div>
+                        <img src={behind_lines} alt='Line design haircut' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={blade} alt='Stylist shaving a beard' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={blue_dye} alt='Blue hair dye haircut' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={client_cut} alt="Barber cutting customer's hair" className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={curls} alt="Stylist curling customer's hair" className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={fade_behind} alt='Fade haircut from behind' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={heart_design} alt='Heart haircut design' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={highlight_curls} alt='Curled and dyed hair' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={kids_haircut} alt="Kid's haircut" className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={line_behind} alt='Line design from behind' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={makeup} alt='Customer with makeup applied and hair curled' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={red_dye} alt='Red dyed haircut' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={side_lines} alt='Line design on the side' className='gallery-image' />
+                    </div>
+                    <div>
+                        <img src={womans_style} alt="Curled and dyed woman's hair" className='gallery-image' />
+                    </div>
+                </Slider>
             </div>
         </div>
     );
 }
+
+
+{/* <div className='gallery-outer-container'>
+    <div className='gallery-inner-container' ref={galleryRef}>
+        <img src={behind_lines} alt='Line design haircut' className='gallery-image' />
+        <img src={blade} alt='Stylist shaving a beard' className='gallery-image' />
+        <img src={blue_dye} alt='Blue hair dye haircut' className='gallery-image' />
+        <img src={client_cut} alt="Barber cutting customer's hair" className='gallery-image' />
+        <img src={curls} alt="Stylist curling customer's hair" className='gallery-image' />
+        <img src={fade_behind} alt='Fade haircut from behind' className='gallery-image' />
+        <img src={heart_design} alt='Heart haircut design' className='gallery-image' />
+        <img src={highlight_curls} alt='Curled and dyed hair' className='gallery-image' />
+        <img src={kids_haircut} alt="Kid's haircut" className='gallery-image' />
+        <img src={line_behind} alt='Line design from behind' className='gallery-image' />
+        <img src={makeup} alt='Customer with makeup applied and hair curled' className='gallery-image' />
+        <img src={red_dye} alt='Red dyed haircut' className='gallery-image' />
+        <img src={side_lines} alt='Line design on the side' className='gallery-image' />
+        <img src={womans_style} alt="Curled and dyed woman's hair" className='gallery-image' />
+    </div>
+</div> */}

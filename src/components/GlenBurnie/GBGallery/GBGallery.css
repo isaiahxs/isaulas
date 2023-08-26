@@ -1,3 +1,8 @@
+.gallery-section {
+    /* max-width: 1000px; */
+    margin: auto;
+}
+
 .gallery-outer-container {
     overflow-x: scroll;
     width: 100%;
@@ -9,10 +14,64 @@
     flex-direction: row;
 }
 
+/* 
 .gallery-image {
-    width: 300px;
-    /* Adjust as needed */
+    border: 2px solid black;
+    width: 350px;
     height: auto;
-    margin-right: 20px;
-    /* Adjust spacing between images */
+} */
+
+
+.slider-container .slick-slide img {
+    border: 2px solid black;
+    width: 90%;
+    height: auto;
+}
+
+.gallery-image {
+    /* display: flex !important; */
+    /* justify-content: center !important; */
+    /* margin-right: 5px !important; */
+}
+
+.slick-arrow {
+    /* height: 80px; */
+}
+
+.slick-next {
+    right: 15px !important;
+}
+
+.slick-prev {
+    left: 15px !important;
+}
+
+.slick-next,
+.slick-prev {
+    z-index: 1;
+    top: 170px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    opacity: 1 !important;
+    color: black;
+}
+
+.slick-list {
+    padding: 0 0% !important;
+}
+
+/* .slick-track {
+    max-width: 1000px;
+} */
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center !important;
+    cursor: grab;
+}
+
+.slick-dots button:before {
+    margin-top: 10px;
 }
