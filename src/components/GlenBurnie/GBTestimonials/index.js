@@ -11,7 +11,7 @@ import './GBTestimonials.css';
 export default function GBTestimonials() {
     return (
         <div className='testimonials-section'>
-            <div className='testimonials-header'>
+            <div className='home-header-container'>
                 <h2 className='home-header'>Real Testimonials</h2>
             </div>
 
@@ -32,6 +32,10 @@ export default function GBTestimonials() {
                                     <img className='star' src={star} alt='Star' />
                                 </span>
                                 <p className='review-text'>Great place for a men's haircut. Sometimes it's a bit of a wait, but when you're in the chair, you get the same attention to detail as anyone else. Clean up is amazing. Usually, I have to go home and shower, then it looks good the next day. Here it's just clean and flawless when you leave. Spanish only place, but 2-3 people there speak English to translate. Don't be intimidated by that; check it out.</p>
+
+                                <a className='review-link' href="https://g.co/kgs/KPi3Uz" target='_blank' rel='noopener noreferrer'>
+                                    <button className='review-link-button'>Review Link</button>
+                                </a>
                             </div>
                         </div>
                     </a>
@@ -55,6 +59,10 @@ export default function GBTestimonials() {
                                     Very few times do I go is there a wait.
 
                                     I get a cut with a straight razor shave.</p>
+
+                                <a className='review-link' href="https://g.co/kgs/Pq51zc" target='_blank' rel='noopener noreferrer'>
+                                    <button className='review-link-button'>Review Link</button>
+                                </a>
                             </div>
                         </div>
                     </a>
@@ -76,6 +84,10 @@ export default function GBTestimonials() {
                                 <p className='review-text'>I just randomly stopped into this place while waiting for my car at Firestone (which is next door). They did an awesome job on my hair, used a real razor for the border of my neck and head (which I was not expecting), were very friendly, and best of all, it was cheap!
 
                                     I highly recommend this place - I will be back.</p>
+
+                                <a className='review-link' href="https://g.co/kgs/o2PZ6d" target='_blank' rel='noopener noreferrer'>
+                                    <button className='review-link-button'>Review Link</button>
+                                </a>
                             </div>
                         </div>
                     </a>
@@ -99,6 +111,10 @@ export default function GBTestimonials() {
                                     <img className='star' src={star} alt='Star' />
                                 </span>
                                 <p className='review-text'>Great service!!!</p>
+
+                                <a className='review-link' href="https://g.co/kgs/VNTz67" target='_blank' rel='noopener noreferrer'>
+                                    <button className='review-link-button'>Review Link</button>
+                                </a>
                             </div>
                         </div>
                     </a>
@@ -118,6 +134,10 @@ export default function GBTestimonials() {
                                     <img className='star' src={star} alt='Star' />
                                 </span>
                                 <p className='review-text'>Really good service and professional</p>
+
+                                <a className='review-link' href="https://g.co/kgs/hPuzev" target='_blank' rel='noopener noreferrer'>
+                                    <button className='review-link-button'>Review Link</button>
+                                </a>
                             </div>
                         </div>
                     </a>
@@ -138,7 +158,9 @@ export default function GBTestimonials() {
                                 </span>
                                 <p className='review-text'>The only place I let cut my hair. Top-notch hair cuts that you just can't find. Ask for Luis, he will take care of you!</p>
 
-                                <a className='review-link' href="https://g.co/kgs/h1fKke" target='_blank' rel='noopener noreferrer'>Review Link</a>
+                                <a className='review-link' href="https://g.co/kgs/h1fKke" target='_blank' rel='noopener noreferrer'>
+                                    <button className='review-link-button'>Review Link</button>
+                                </a>
                             </div>
                         </div>
                     </a>
