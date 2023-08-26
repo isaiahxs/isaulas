@@ -1,0 +1,121 @@
+.testimonials-section {
+    padding: 30px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.testimonials-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.individual-testimonial {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #edefee; */
+    background-color: white;
+    padding: 15px 20px;
+    font-family: Karla, sans-serif;
+    width: 200px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 1s all;
+    text-decoration: none !important;
+}
+
+.review-link:hover,
+.individual-testimonial:hover {
+    background-color: #222222;
+    color: white;
+}
+
+
+
+.first-three-testimonials {
+    margin-bottom: 20px;
+}
+
+.reviewer-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.reviewer-image {
+    height: 60px;
+    width: auto;
+}
+
+.review-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.review-text {
+    margin: 10px 0px;
+}
+
+.rating-and-image {
+    display: flex;
+    justify-content: center;
+}
+
+.reviewer-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.stars-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-bottom: 15px; */
+    margin-top: 10px;
+}
+
+.star {
+    height: 20px;
+}
+
+.product-name-container {
+    display: flex;
+    justify-content: center;
+}
+
+.reviewer-name {
+    margin: 0px 0px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.rating-title {
+    margin-top: 0px;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 780px) {
+    .testimonials-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .individual-testimonial {
+        margin-bottom: 20px;
+    }
+}
