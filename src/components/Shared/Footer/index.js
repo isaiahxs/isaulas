@@ -16,7 +16,7 @@ export default function Footer() {
                     </Link>
                 </section>
 
-                <section className='first-footer-section'>
+                {/* <section className='first-footer-section'>
                     <ul className='footer-options-container'>
                         <li className='footer-heading'>
                             Navigation
@@ -30,7 +30,7 @@ export default function Footer() {
                             </li>
                         </div>
                     </ul>
-                </section>
+                </section> */}
 
                 <section className='second-footer-section'>
                     <ul className='footer-options-container'>
@@ -56,9 +56,13 @@ export default function Footer() {
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
-                                    {/* <img className='footer-icon' alt='Calendar Icon' /> */}
                                     <p className='footer-icon-description'>Mon - Sat: 8:00am - 8:00pm
-                                        Sun: 8:00am - 3:00pm
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div className='footer-icon-container'>
+                                    <p className='footer-icon-description'>Sun: 8:00am - 3:00pm
                                     </p>
                                 </div>
                             </li>
@@ -111,7 +115,7 @@ export default function Footer() {
 
                         <div className='footer-options'>
                             <li>
-                                <a href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer'>
+                                <a href="https://www.facebook.com/IsaulasBeautySalonII" target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
                                         <img src={facebook} className='footer-icon' alt='Facebook Logo' />
                                         <p className='footer-icon-description'>Facebook</p>
@@ -119,7 +123,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'>
+                                <a href='https://www.instagram.com/isaulasbs/' target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
                                         <img src={instagram} className='footer-icon' alt='Instagram Logo' />
                                         <p className='footer-icon-description'>Instagram</p>
