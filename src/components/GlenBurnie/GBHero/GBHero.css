@@ -1,0 +1,98 @@
+/* .header-container {
+    width: 100%;
+    background-color: #495e57;
+} */
+
+.hero-section {
+    padding: 30px;
+    max-width: 1000px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: auto;
+    /* align-items: center; */
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* font-weight: bolder; */
+}
+
+.location {
+    font-size: 2.0rem;
+    margin-top: 0px;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+
+.hero-information {
+    margin-right: 15px;
+}
+
+.hero-buttons-container {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.view-services-hero {
+    margin-right: 10px;
+}
+
+.hero-image-container {
+    height: 300px;
+    width: auto;
+}
+
+.hero-image {
+    height: 100%;
+    /* width: 100%; */
+    border: 2px solid #222222;
+}
+
+.contact-container {
+    background-color: #222222;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.contact-heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-heading-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+.contact-container a {
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        height: auto;
+        width: 310px;
+    }
+}

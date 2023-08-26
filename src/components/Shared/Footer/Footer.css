@@ -70,6 +70,10 @@
         align-items: center;
     }
 
+    .footer-icon-container {
+        align-items: normal;
+    }
+
     .footer-heading {
         display: flex;
         justify-content: center;

@@ -39,7 +39,7 @@ export default function Footer() {
                         </li>
                         <div className='footer-options'>
                             <li>
-                                <a href="https://www.google.com/maps/place/Isaula's+Beauty+Salon+LLC/@39.1592102,-76.6207809,15z/data=!4m6!3m5!1s0x89b7fcdd79a6aeed:0xa55be85257c1581f!8m2!3d39.1592102!4d-76.6207809!16s%2Fg%2F1v8l0hr7?entry=ttu">
+                                <a href="https://www.google.com/maps/place/Isaula's+Beauty+Salon+LLC/@39.1592102,-76.6207809,15z/data=!4m6!3m5!1s0x89b7fcdd79a6aeed:0xa55be85257c1581f!8m2!3d39.1592102!4d-76.6207809!16s%2Fg%2F1v8l0hr7?entry=ttu" target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
                                         <img src={map_pin} className='footer-icon' alt='Map Pin Icon' />
                                         <p className='footer-icon-description'>7574 Ritchie Hwy, Glen Burnie, MD 21061</p>
@@ -50,7 +50,9 @@ export default function Footer() {
                                 {/* <a href='/work-in-progress'> */}
                                 <div className='footer-icon-container'>
                                     <img src={phone} className='footer-icon' alt='Phone Icon' />
-                                    <p className='footer-icon-description'>(410) 760-6422</p>
+                                    <p className='footer-icon-description'>
+                                        <a href='tel:+14107606422'>(410) 760-6422</a>
+                                    </p>
                                 </div>
                                 {/* </a> */}
                             </li>
@@ -85,10 +87,11 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                {/* how can i make it so when someone clicks here on mobile, it gives the option to call */}
                                 <div className='footer-icon-container'>
                                     <img src={phone} className='footer-icon' alt='Phone Icon' />
-                                    <p className='footer-icon-description'>(410) 266-8950</p>
+                                    <p className='footer-icon-description'>
+                                        <a href='tel:+14102668950'>(410) 266-8950</a>
+                                    </p>
                                 </div>
                             </li>
                             <li>
