@@ -1,0 +1,15 @@
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0px 10px;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+}
