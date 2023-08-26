@@ -1,0 +1,18 @@
+.gallery-outer-container {
+    overflow-x: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.gallery-inner-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-image {
+    width: 300px;
+    /* Adjust as needed */
+    height: auto;
+    margin-right: 20px;
+    /* Adjust spacing between images */
+}

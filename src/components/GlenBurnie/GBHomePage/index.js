@@ -1,6 +1,7 @@
 import Navigation from '../../Shared/Navigation';
 import Footer from '../../Shared/Footer';
 import GBHero from '../GBHero';
+import GBGallery from '../GBGallery';
 import GBTestimonials from '../GBTestimonials';
 
 export default function GBHomePage() {
@@ -8,6 +9,7 @@ export default function GBHomePage() {
         <div>
             <Navigation />
             <GBHero />
+            <GBGallery />
             <GBTestimonials />
             <Footer />
         </div>
