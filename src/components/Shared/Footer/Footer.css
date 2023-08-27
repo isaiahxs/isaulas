@@ -14,6 +14,9 @@
     margin: auto;
 }
 
+.footer-options-container {
+    margin-right: 10px;
+}
 
 .footer-section a {
     color: white;
@@ -34,7 +37,7 @@
 }
 
 .big-logo {
-    height: 170px;
+    height: 140px;
     width: auto;
     margin-right: 30px;
     margin-top: 20px;
@@ -94,5 +97,6 @@
 
     .big-logo {
         margin: 0px;
+        margin-top: 10px;
     }
 }

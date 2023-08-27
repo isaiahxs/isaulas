@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../../../assets/icons/scissors-comb-white.png';
 import './Navigation.css'
 
 export default function Navigation() {
@@ -6,7 +7,7 @@ export default function Navigation() {
         <nav className='nav-bar'>
             <ul className='nav-options'>
                 <Link to='/'>
-                    <img className='isaulas-logo' alt="Isaula's Logo" />
+                    <img src={logo} className='small-logo' alt="Isaula's Logo" />
                 </Link>
 
                 <li>

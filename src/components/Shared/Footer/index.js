@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../../../assets/icons/scissors-comb-white.png';
 import map_pin from '../../../assets/icons/map-pin.svg';
 import phone from '../../../assets/icons/phone-icon.svg';
 // import email from '../../../assets/icons/mail-icon.svg';
@@ -12,7 +13,7 @@ export default function Footer() {
             <div className='footer-section'>
                 <section className='logo-section'>
                     <Link to='/'>
-                        <img className='big-logo' alt="Big Isaula's Logo" />
+                        <img src={logo} className='big-logo' alt="Big Isaula's Logo" />
                     </Link>
                 </section>
 
@@ -58,13 +59,13 @@ export default function Footer() {
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
-                                    <p className='footer-icon-description'>Mon - Sat: 8:00am - 8:00pm
+                                    <p className='footer-icon-description'>Mon - Sat: 9:00am - 8:00pm
                                     </p>
                                 </div>
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
-                                    <p className='footer-icon-description'>Sun: 8:00am - 3:00pm
+                                    <p className='footer-icon-description'>Sun: 9:00am - 4:00pm
                                     </p>
                                 </div>
                             </li>
@@ -102,7 +103,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
-                                    <p className='footer-icon-description'>Sun: 8:00am - 3:00pm
+                                    <p className='footer-icon-description'>Sun: 8:00am - 5:00pm
                                     </p>
                                 </div>
                             </li>

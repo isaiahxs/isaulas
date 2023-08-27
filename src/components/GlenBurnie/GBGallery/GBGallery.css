@@ -24,14 +24,11 @@
 
 .slider-container .slick-slide img {
     border: 2px solid black;
-    width: 90%;
-    height: auto;
 }
 
 .gallery-image {
-    /* display: flex !important; */
-    /* justify-content: center !important; */
-    /* margin-right: 5px !important; */
+    height: 350px;
+    /* width: 100%; */
 }
 
 .slick-arrow {
@@ -60,6 +57,13 @@
 
 .slick-list {
     padding: 0 0% !important;
+    /* max-width: 1000px; */
+}
+
+.slider-container {
+    /* display: flex; */
+    margin: auto;
+    max-width: 1500px;
 }
 
 /* .slick-track {

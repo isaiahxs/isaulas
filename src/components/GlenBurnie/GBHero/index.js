@@ -21,7 +21,7 @@ export default function GBHero() {
                     <h3 className='description urbanist'>Our salon offers a wide range of beauty services, including haircuts, styling, coloring, and more. Our team of experienced stylists is dedicated to providing you with the best possible experience.</h3>
 
                     <h3 className='description urbanist'>Monday - Saturday: 8:00am to 8:00pm
-                        Sunday: 8:00am to 3:00pm
+                        Sunday: 9:00am to 4:00pm
                     </h3>
 
                     {/*Walk-ins are welcome, but appointments are preferred. We look forward to seeing you soon!*/}
