@@ -29,3 +29,16 @@
     height: 52px;
     width: auto;
 }
+
+.nav-button {
+    background: none;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: #222222;
+    font-weight: bold;
+}

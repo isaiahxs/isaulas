@@ -18,7 +18,7 @@ export default function GBTestimonials() {
 
             <div className='first-three-testimonials'>
                 <div className='testimonials-container'>
-                    <a className='individual-testimonial' href="https://g.co/kgs/KPi3Uz" target='_blank' rel='noopener noreferrer'>
+                    <div className='individual-testimonial'>
                         <div className='review-details'>
                             <div className='reviewer-name-container'>
                                 <p className='reviewer-name'>Dennis</p>
@@ -35,13 +35,15 @@ export default function GBTestimonials() {
                                 <p className='review-text'>Great place for a men's haircut. Sometimes it's a bit of a wait, but when you're in the chair, you get the same attention to detail as anyone else. Clean up is amazing. Usually, I have to go home and shower, then it looks good the next day. Here it's just clean and flawless when you leave. Spanish only place, but 2-3 people there speak English to translate. Don't be intimidated by that; check it out.</p>
 
                                 <a className='review-link' href="https://g.co/kgs/KPi3Uz" target='_blank' rel='noopener noreferrer'>
-                                    <button className='review-link-button'>Review Link</button>
+                                    <div className='my-review-link-button'>
+                                        Review Link
+                                    </div>
                                 </a>
                             </div>
                         </div>
-                    </a>
+                    </div>
 
-                    <a className='individual-testimonial' href="https://g.co/kgs/Pq51zc" target='_blank' rel='noopener noreferrer'>
+                    <div className='individual-testimonial'>
                         <div className='review-details'>
                             <div className='reviewer-name-container'>
                                 <p className='reviewer-name'>Jeff Smith</p>
@@ -62,13 +64,15 @@ export default function GBTestimonials() {
                                     I get a cut with a straight razor shave.</p>
 
                                 <a className='review-link' href="https://g.co/kgs/Pq51zc" target='_blank' rel='noopener noreferrer'>
-                                    <button className='review-link-button'>Review Link</button>
+                                    <div className='my-review-link-button'>
+                                        Review Link
+                                    </div>
                                 </a>
                             </div>
                         </div>
-                    </a>
+                    </div>
 
-                    <a className='individual-testimonial' href="https://g.co/kgs/o2PZ6d" target='_blank' rel='noopener noreferrer'>
+                    <div className='individual-testimonial'>
                         <div className='review-details'>
                             <div className='reviewer-name-container'>
                                 <p className='reviewer-name'>Kevin Plessner</p>
@@ -87,17 +91,19 @@ export default function GBTestimonials() {
                                     I highly recommend this place - I will be back.</p>
 
                                 <a className='review-link' href="https://g.co/kgs/o2PZ6d" target='_blank' rel='noopener noreferrer'>
-                                    <button className='review-link-button'>Review Link</button>
+                                    <div className='my-review-link-button'>
+                                        Review Link
+                                    </div>
                                 </a>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
 
             <div className='second-three-testimonials'>
                 <div className='testimonials-container'>
-                    <a className='individual-testimonial' href="https://g.co/kgs/VNTz67" target='_blank' rel='noopener noreferrer'>
+                    <div className='individual-testimonial'>
                         <div className='review-details'>
                             <div className='reviewer-name-container'>
                                 <p className='reviewer-name'>Francisco Lozano</p>
@@ -114,13 +120,15 @@ export default function GBTestimonials() {
                                 <p className='review-text'>Great service!!!</p>
 
                                 <a className='review-link' href="https://g.co/kgs/VNTz67" target='_blank' rel='noopener noreferrer'>
-                                    <button className='review-link-button'>Review Link</button>
+                                    <div className='my-review-link-button'>
+                                        Review Link
+                                    </div>
                                 </a>
                             </div>
                         </div>
-                    </a>
+                    </div>
 
-                    <a className='individual-testimonial' href="https://g.co/kgs/hPuzev" target='_blank' rel='noopener noreferrer'>
+                    <div className='individual-testimonial'>
                         <div className='review-details'>
                             <div className='reviewer-name-container'>
                                 <p className='reviewer-name'>Douglas A</p>
@@ -137,13 +145,15 @@ export default function GBTestimonials() {
                                 <p className='review-text'>Really good service and professional</p>
 
                                 <a className='review-link' href="https://g.co/kgs/hPuzev" target='_blank' rel='noopener noreferrer'>
-                                    <button className='review-link-button'>Review Link</button>
+                                    <div className='my-review-link-button'>
+                                        Review Link
+                                    </div>
                                 </a>
                             </div>
                         </div>
-                    </a>
+                    </div>
 
-                    <a className='individual-testimonial' href="https://g.co/kgs/h1fKke" target='_blank' rel='noopener noreferrer'>
+                    <div className='individual-testimonial'>
                         <div className='review-details'>
                             <div className='reviewer-name-container'>
                                 <p className='reviewer-name'>Chris Schlichting</p>
@@ -160,11 +170,13 @@ export default function GBTestimonials() {
                                 <p className='review-text'>The only place I let cut my hair. Top-notch hair cuts that you just can't find. Ask for Luis, he will take care of you!</p>
 
                                 <a className='review-link' href="https://g.co/kgs/h1fKke" target='_blank' rel='noopener noreferrer'>
-                                    <button className='review-link-button'>Review Link</button>
+                                    <div className='my-review-link-button'>
+                                        Review Link
+                                    </div>
                                 </a>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
             </div>

@@ -31,6 +31,11 @@ export default function Navigation() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, [lastScrollPos]);
 
+    const scrollToSection = (sectionId) => {
+        const sectionElement = document.getElementById(sectionId);
+        sectionElement.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <nav className='nav-bar'>
             <ul className='nav-options'>
@@ -38,17 +43,31 @@ export default function Navigation() {
                     <img src={logo} className='small-logo' alt="Isaula's Logo" />
                 </Link>
 
+                {/* <li>
+                    <a href='/'>Glen Burnie</a>
+                </li> */}
+
                 <li>
-                    <a href='/'>Home</a>
+                    <a href='/about'>Annapolis</a>
                 </li>
 
                 <li>
-                    <a href='/about'>About</a>
+                    <button className='nav-button' onClick={() => scrollToSection('services')}>
+                        Services
+                    </button>
                 </li>
 
                 <li>
-                    <a href='/contact'>Contact</a>
+                    <button className='nav-button' onClick={() => scrollToSection('reviews')}>
+                        Reviews
+                    </button>
                 </li>
+                {/* <li>
+                    <button className='contact' onClick={() => scrollToSection('contact')}>
+                        Contact
+                    </button> */}
+                {/* <a href='/contact'>Contact</a> */}
+                {/* </li> */}
             </ul>
         </nav>
     )

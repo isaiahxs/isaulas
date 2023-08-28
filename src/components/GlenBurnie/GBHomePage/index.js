@@ -22,7 +22,9 @@ export default function GBHomePage() {
                 <GBTestimonials />
             </div>
 
-            <Footer />
+            <div id='contact'>
+                <Footer />
+            </div>
         </div>
     )
 }

@@ -26,7 +26,7 @@
 .footer-section li {}
 
 .footer-heading {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-bottom: 5px;
     text-align: center;
 }
@@ -83,18 +83,20 @@
 .credits-created-by {
     margin-bottom: 5px;
     margin-top: 5px;
+    font-size: 1.3rem;
 }
 
 .isaiah {
     color: white;
     margin-left: 5px;
+    font-size: 1.3rem;
 }
 
 .isaiah:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1050px) {
     .footer-section {
         flex-direction: column;
         align-items: center;

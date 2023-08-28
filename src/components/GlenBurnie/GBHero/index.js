@@ -21,7 +21,7 @@ export default function GBHero() {
                 <div className='hero-information'>
                     <h1 className='title'>Isaula's Beauty Salon</h1>
                     <h2 className='location'>Glen Burnie</h2>
-                    <h3 className='description urbanist'>Experience the beauty and elegance of our salon.</h3>
+                    {/* <h3 className='description urbanist'>Experience the beauty and elegance of our salon.</h3> */}
 
                     <h3 className='description urbanist'>
                         {/* Our salon offers a wide range of beauty services, including haircuts, styling, coloring, and more. Our team of experienced stylists is dedicated to providing you with the best possible experience. */}
