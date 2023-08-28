@@ -24,16 +24,18 @@ export default function GBHero() {
                     {/* <h3 className='description urbanist'>Experience the beauty and elegance of our salon.</h3> */}
 
                     <h3 className='description urbanist'>
-                        {/* Our salon offers a wide range of beauty services, including haircuts, styling, coloring, and more. Our team of experienced stylists is dedicated to providing you with the best possible experience. */}
+                        Serving the community for over 12 years, Isaula's Beauty Salon offers a wide range of beauty services, including haircuts, styling, coloring, and more.
+                    </h3>
 
-                        Serving the community for over 12 years, Isaula's Beauty Salon offers a wide range of beauty services, including haircuts, styling, coloring, and more. Our team of experienced stylists is dedicated to providing you with the best possible experience.
+                    <h3 className='description urbanist'>
+                        Our team of experienced stylists is dedicated to providing you with the best possible experience.
                     </h3>
 
                     <h3 className='description description-hours urbanist'>
                         Monday - Saturday: 8:00am to 8:00pm
                     </h3>
 
-                    <h3 className='description description-hours urbanist'>
+                    <h3 className='description description-hours description-hours-bottom urbanist'>
                         Sunday: 9:00am to 4:00pm
                     </h3>
 
@@ -47,6 +49,11 @@ export default function GBHero() {
                         <button className='view-reviews-hero' onClick={() => scrollToSection('reviews')}>
                             View Reviews
                         </button>
+
+                        <a href="https://www.google.com/search?q=Isaula%27s+Beauty+Salon+LLC&sca_esv=560578390&ei=IBrsZPm8Ja-u5NoPyOmv-Aw&ved=0ahUKEwj5zLCNuv6AAxUvF1kFHcj0C88Q4dUDCBA&uact=5&oq=Isaula%27s+Beauty+Salon+LLC&gs_lp=Egxnd3Mtd2l6LXNlcnAiGUlzYXVsYSdzIEJlYXV0eSBTYWxvbiBMTEMyCxAuGIAEGMcBGK8BMgIQJjIIEAAYigUYhgMyCBAAGIoFGIYDMggQABiKBRiGAzIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQFI32FQpgxYuV9wAngAkAEAmAFMoAHaBqoBAjEzuAEDyAEA-AEBwgIOEC4YgAQYxwEYrwEYsAPCAgsQABiKBRiGAxiwA8ICBRAAGKIEwgIKECEYoAEYwwQYCsICDRAuGA0YgAQYxwEYrwHCAhwQLhgNGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYFhgeGAriAwQYASBBiAYBkAYDugYGCAEQARgU&sclient=gws-wiz-serp#lrd=0x89b7fcdd79a6aeed:0xa55be85257c1581f,3,,,," target='_blank' rel='noopener noreferrer'>
+                            <button className='leave-review-hero'>Rate Your Visit!
+                            </button>
+                        </a>
                     </div>
                 </div>
 

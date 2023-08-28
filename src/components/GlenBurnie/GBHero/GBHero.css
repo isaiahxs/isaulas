@@ -28,22 +28,31 @@
 .description {
     font-weight: 500;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
 }
 
 .description-hours {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.description-hours-bottom {
     margin-bottom: 10px;
 }
 
 .hero-information {
     margin-right: 15px;
+    text-align: center;
 }
 
 .hero-buttons-container {
-    max-width: 320px;
+    max-width: 510px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: auto;
 }
 
@@ -51,8 +60,15 @@
     position: relative;
 }
 
-.view-services-hero {
-    margin-right: 10px;
+.view-reviews-hero {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.view-services-hero,
+.view-reviews-hero,
+.leave-review-hero {
+    width: 200px;
 }
 
 .hero-image-container {
