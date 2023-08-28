@@ -14,22 +14,27 @@
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin-top: 0px;
     margin-bottom: 0px;
     /* font-weight: bolder; */
 }
 
 .location {
-    font-size: 2.0rem;
+    font-size: 2.1rem;
     margin-top: 0px;
 }
 
 .description {
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
+.description-hours {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .hero-information {
     margin-right: 15px;
@@ -115,6 +120,8 @@
 
     .hero-information {
         margin-right: 0px;
+        /* display: flex; */
+        /* flex-direction: column-reverse; */
     }
 
     .hero-buttons-container {

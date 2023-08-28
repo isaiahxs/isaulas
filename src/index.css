@@ -23,11 +23,11 @@ a:hover {
 button {
   border: 2px solid black;
   color: white;
-  background-color: white;
+  background-color: rgb(255, 250, 250);
   color: #222222;
   padding: 5px 10px;
   font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   transition: 0.7s all;
 }

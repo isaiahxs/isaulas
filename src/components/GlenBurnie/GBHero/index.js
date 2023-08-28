@@ -18,10 +18,13 @@ export default function GBHero() {
                     <h2 className='location'>Glen Burnie</h2>
                     <h3 className='description urbanist'>Experience the beauty and elegance of our salon.</h3>
 
-                    {/* Isaula's Beauty Salon is located in the heart of Glen Burnie. */}
                     <h3 className='description urbanist'>Our salon offers a wide range of beauty services, including haircuts, styling, coloring, and more. Our team of experienced stylists is dedicated to providing you with the best possible experience.</h3>
 
-                    <h3 className='description urbanist'>Monday - Saturday: 8:00am to 8:00pm
+                    <h3 className='description description-hours urbanist'>
+                        Monday - Saturday: 8:00am to 8:00pm
+                    </h3>
+
+                    <h3 className='description description-hours urbanist'>
                         Sunday: 9:00am to 4:00pm
                     </h3>
 
