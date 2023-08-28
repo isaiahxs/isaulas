@@ -27,7 +27,7 @@ button {
   color: #222222;
   padding: 5px 10px;
   font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   transition: 0.7s all;
 }
@@ -45,7 +45,3 @@ button:hover {
 .urbanist {
   font-family: 'Urbanist', sans-serif;
 }
-
-/* img {
-  border: 2px solid black;
-} */

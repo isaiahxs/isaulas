@@ -11,7 +11,7 @@ export default function GBServices() {
             <div className='services-lists'>
                 <div className="female-cuts">
                     <h3 className='list-heading'>Women's Styles</h3>
-                    <h4 className='list-subheading'>Prices vary</h4>
+                    <h4 className='list-subheading'>Contact us for consultation and pricing details</h4>
                     <ul className='style-list'>
                         <li>Haircuts $30</li>
                         <li>Keratin Straightening</li>
