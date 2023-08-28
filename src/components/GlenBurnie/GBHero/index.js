@@ -23,21 +23,23 @@ export default function GBHero() {
                     <h2 className='location'>Glen Burnie</h2>
                     {/* <h3 className='description urbanist'>Experience the beauty and elegance of our salon.</h3> */}
 
-                    <h3 className='description urbanist'>
-                        Serving the community for over 12 years, Isaula's Beauty Salon offers a wide range of beauty services, including haircuts, styling, coloring, and more.
-                    </h3>
+                    <div className='hero-descriptions-container'>
+                        <h3 className='description urbanist'>
+                            Serving the community for over 12 years, Isaula's Beauty Salon offers a wide range of beauty services, including haircuts, styling, coloring, and more.
+                        </h3>
 
-                    <h3 className='description urbanist'>
-                        Our team of experienced stylists is dedicated to providing you with the best possible experience.
-                    </h3>
+                        <h3 className='description description-2 urbanist'>
+                            Our team of experienced stylists is dedicated to providing you with the best possible experience.
+                        </h3>
 
-                    <h3 className='description description-hours urbanist'>
-                        Monday - Saturday: 8:00am to 8:00pm
-                    </h3>
+                        <h3 className='description description-hours urbanist'>
+                            Monday - Saturday: 8:00am to 8:00pm
+                        </h3>
 
-                    <h3 className='description description-hours description-hours-bottom urbanist'>
-                        Sunday: 9:00am to 4:00pm
-                    </h3>
+                        <h3 className='description description-hours description-hours-bottom urbanist'>
+                            Sunday: 9:00am to 4:00pm
+                        </h3>
+                    </div>
 
                     {/*Walk-ins are welcome, but appointments are preferred. We look forward to seeing you soon!*/}
 
