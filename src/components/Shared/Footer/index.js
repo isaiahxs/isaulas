@@ -139,6 +139,12 @@ export default function Footer() {
                 </section>
 
             </div >
+            <div className='credits-container'>
+                <p className='credits-created-by'>Website designed & created by</p>
+                <a href='https://www.isaiahxs.com/' target='_blank' rel='noopener noreferrer' className='isaiah'>
+                    Isaiah Sinnathamby
+                </a>
+            </div>
         </footer >
     )
 }

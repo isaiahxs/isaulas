@@ -63,6 +63,10 @@
     object-fit: cover;
 }
 
+/* .hero-image:hover {
+    transform: scale(1.05);
+} */
+
 .contact-container {
     color: white;
     padding: 10px;

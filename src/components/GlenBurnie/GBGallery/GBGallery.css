@@ -79,3 +79,59 @@
 .slick-dots button:before {
     margin-top: 10px;
 }
+
+@media screen and (min-width: 1200px) {
+    .slick-next {
+        top: 381px !important;
+        right: 40% !important;
+    }
+
+    .slick-prev {
+        top: 381px !important;
+        /* left: 540px !important; */
+        left: 40% !important;
+    }
+}
+
+@media screen and (min-width: 775px) {
+    .slick-next {
+        top: 381px !important;
+        right: 33% !important;
+    }
+
+    .slick-prev {
+        top: 381px !important;
+        /* left: 540px !important; */
+        left: 33% !important;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .slick-dots {
+        /* margin-top: 40px !important; */
+        bottom: -12%;
+        /* width: 200px; */
+        /* display: flex; */
+        /* margin: auto; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .slick-next {
+        top: 422px !important;
+        right: 42% !important;
+        display: hidden;
+    }
+
+    .slick-prev {
+        top: 422px !important;
+        /* left: 540px !important; */
+        left: 42% !important;
+        display: hidden;
+    }
+
+    /* .slick-prev:before,
+    .slick-next:before {
+        display: hidden !important;
+    } */
+}
