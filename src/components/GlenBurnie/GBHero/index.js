@@ -1,6 +1,7 @@
 import Navigation from '../../Shared/Navigation';
 import Footer from '../../Shared/Footer';
 import salon_picture from '../../../assets/images/wide-shot-empty.jpg';
+import fili from '../../../assets/images/GBCuts/fili.jpg';
 import { Link } from 'react-router-dom';
 import map_pin from '../../../assets/icons/map-pin.svg';
 import phone from '../../../assets/icons/phone-icon.svg';
@@ -39,10 +40,46 @@ export default function GBHero() {
 
                 <div className='hero-image-and-contact'>
                     <div className='hero-image-container'>
-                        <img src={salon_picture} className='hero-image' alt="Isaula's Salon" />
+                        <img src={fili} className='hero-image' alt="Isaula's Salon" />
+                        <div className="gradient-overlay">
+                            <div className='contact-container urbanist'>
+                                <div className='contact-heading-container'>
+                                    <h3 className='contact-heading-text playfair'>Contact Us</h3>
+                                </div>
+
+                                <a href="https://www.google.com/maps/place/Isaula's+Beauty+Salon+LLC/@39.1592102,-76.6207809,15z/data=!4m6!3m5!1s0x89b7fcdd79a6aeed:0xa55be85257c1581f!8m2!3d39.1592102!4d-76.6207809!16s%2Fg%2F1v8l0hr7?entry=ttu"
+                                    target='_blank' rel='noopener noreferrer'>
+                                    <div className='footer-icon-container'>
+                                        <img src={map_pin} className='footer-icon' alt='Map Pin Icon' />
+                                        <p className='footer-icon-description'>7574 Ritchie Hwy, Glen Burnie, MD 21061</p>
+                                    </div>
+                                </a>
+
+                                <div className='footer-icon-container'>
+                                    <img src={phone} className='footer-icon' alt='Phone Icon' />
+                                    <p className='footer-icon-description'>
+                                        <a href='tel:+14107606422'>(410) 760-6422</a>
+                                    </p>
+                                </div>
+
+                                <a href="https://www.facebook.com/IsaulasBeautySalonII" target='_blank' rel='noopener noreferrer'>
+                                    <div className='footer-icon-container'>
+                                        <img src={facebook} className='footer-icon' alt='Facebook Logo' />
+                                        <p className='footer-icon-description'>Facebook</p>
+                                    </div>
+                                </a>
+
+                                <a href='https://www.instagram.com/isaulasbs/' target='_blank' rel='noopener noreferrer'>
+                                    <div className='footer-icon-container'>
+                                        <img src={instagram} className='footer-icon' alt='Instagram Logo' />
+                                        <p className='footer-icon-description'>Instagram</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div className='contact-container urbanist'>
+                    {/* <div className='contact-container urbanist'>
                         <div className='contact-heading-container'>
                             <h3 className='contact-heading-text playfair'>Contact Us</h3>
                         </div>
@@ -74,7 +111,7 @@ export default function GBHero() {
                                 <p className='footer-icon-description'>Instagram</p>
                             </div>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>

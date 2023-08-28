@@ -5,7 +5,8 @@ import kevin from '../../../assets/images/testimonials/kevin.png';
 import francisco from '../../../assets/images/testimonials/francisco.png';
 import douglas from '../../../assets/images/testimonials/douglas.png';
 import chris from '../../../assets/images/testimonials/chris.png';
-import star from '../../../assets/icons/full-star.svg';
+import star from '../../../assets/icons/star-icon.png';
+// import star from '../../../assets/icons/full-star.svg';
 import './GBTestimonials.css';
 
 export default function GBTestimonials() {

@@ -6,6 +6,7 @@
     /* max-width: 1000px; */
     padding: 0px 10px;
     background-color: #222222;
+    transition: transform 0.3s ease;
 }
 
 .nav-bar a {

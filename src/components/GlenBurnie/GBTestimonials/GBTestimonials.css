@@ -5,12 +5,13 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    margin-top: 20px;
 }
 
 .home-header-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .home-header {
@@ -35,6 +36,7 @@
     border: 2px solid black;
     transition: 1s all;
     text-decoration: none !important;
+    height: 300px;
 }
 
 .individual-testimonial:hover {
@@ -83,6 +85,8 @@
 
 .review-text {
     margin: 10px 0px;
+    max-height: 100px;
+    overflow-y: auto;
 }
 
 .rating-and-image {
@@ -106,7 +110,8 @@
 }
 
 .star {
-    height: 20px;
+    margin: 1px;
+    height: 25px;
 }
 
 .product-name-container {

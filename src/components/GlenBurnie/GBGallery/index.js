@@ -53,48 +53,51 @@ export default function GBGallery() {
 
             <div className="slider-container">
                 <Slider {...settings}>
-                    {/* <div> */}
-                    <img src={behind_lines} alt='Line design haircut' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={blade} alt='Stylist shaving a beard' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={blue_dye} alt='Blue hair dye haircut' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={client_cut} alt="Barber cutting customer's hair" className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={curls} alt="Stylist curling customer's hair" className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={fade_behind} alt='Fade haircut from behind' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={heart_design} alt='Heart haircut design' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={highlight_curls} alt='Curled and dyed hair' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={kids_haircut} alt="Kid's haircut" className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={line_behind} alt='Line design from behind' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={makeup} alt='Customer with makeup applied and hair curled' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={red_dye} alt='Red dyed haircut' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={side_lines} alt='Line design on the side' className='gallery-image' />
-                    {/* </div> */}
-                    {/* <div> */}
-                    <img src={womans_style} alt="Curled and dyed woman's hair" className='gallery-image' />
-                    {/* </div> */}
+                    <div className='gallery-image-container'>
+                        <img src={behind_lines} alt='Line design haircut' className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={womans_style} alt="Curled and dyed woman's hair" className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={red_dye} alt='Red dyed haircut' className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={blade} alt='Stylist shaving a beard' className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={highlight_curls} alt='Curled and dyed hair' className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={blue_dye} alt='Blue hair dye haircut' className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={client_cut} alt="Barber cutting customer's hair" className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={curls} alt="Stylist curling customer's hair" className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={fade_behind} alt='Fade haircut from behind' className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={heart_design} alt='Heart haircut design' className='gallery-image' />
+                    </div>
+
+                    <div className='gallery-image-container'>
+                        <img src={kids_haircut} alt="Kid's haircut" className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={line_behind} alt='Line design from behind' className='gallery-image' />
+                    </div>
+                    <div className='gallery-image-container'>
+                        <img src={makeup} alt='Customer with makeup applied and hair curled' className='gallery-image' />
+                    </div>
+
+                    <div className='gallery-image-container'>
+                        <img src={side_lines} alt='Line design on the side' className='gallery-image' />
+                    </div>
+
                 </Slider>
             </div>
         </div>
