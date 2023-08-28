@@ -10,6 +10,11 @@ import instagram from '../../../assets/icons/instagram-logo.svg';
 import './GBHero.css';
 
 export default function GBHero() {
+    const scrollToSection = (sectionId) => {
+        const sectionElement = document.getElementById(sectionId);
+        sectionElement.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <header className='header-container'>
             <div className='hero-section'>
@@ -31,11 +36,11 @@ export default function GBHero() {
                     {/*Walk-ins are welcome, but appointments are preferred. We look forward to seeing you soon!*/}
 
                     <div className='hero-buttons-container'>
-                        <button className='view-services-hero'>
+                        <button className='view-services-hero' onClick={() => scrollToSection('services')}>
                             View Services
                         </button>
 
-                        <button className='view-reviews-hero'>
+                        <button className='view-reviews-hero' onClick={() => scrollToSection('reviews')}>
                             View Reviews
                         </button>
                     </div>
@@ -81,40 +86,6 @@ export default function GBHero() {
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className='contact-container urbanist'>
-                        <div className='contact-heading-container'>
-                            <h3 className='contact-heading-text playfair'>Contact Us</h3>
-                        </div>
-
-                        <a href="https://www.google.com/maps/place/Isaula's+Beauty+Salon+LLC/@39.1592102,-76.6207809,15z/data=!4m6!3m5!1s0x89b7fcdd79a6aeed:0xa55be85257c1581f!8m2!3d39.1592102!4d-76.6207809!16s%2Fg%2F1v8l0hr7?entry=ttu">
-                            <div className='footer-icon-container'>
-                                <img src={map_pin} className='footer-icon' alt='Map Pin Icon' />
-                                <p className='footer-icon-description'>7574 Ritchie Hwy, Glen Burnie, MD 21061</p>
-                            </div>
-                        </a>
-
-                        <div className='footer-icon-container'>
-                            <img src={phone} className='footer-icon' alt='Phone Icon' />
-                            <p className='footer-icon-description'>
-                                <a href='tel:+14107606422'>(410) 760-6422</a>
-                            </p>
-                        </div>
-
-                        <a href="https://www.facebook.com/IsaulasBeautySalonII" target='_blank' rel='noopener noreferrer'>
-                            <div className='footer-icon-container'>
-                                <img src={facebook} className='footer-icon' alt='Facebook Logo' />
-                                <p className='footer-icon-description'>Facebook</p>
-                            </div>
-                        </a>
-
-                        <a href='https://www.instagram.com/isaulasbs/' target='_blank' rel='noopener noreferrer'>
-                            <div className='footer-icon-container'>
-                                <img src={instagram} className='footer-icon' alt='Instagram Logo' />
-                                <p className='footer-icon-description'>Instagram</p>
-                            </div>
-                        </a>
-                    </div> */}
                 </div>
             </div>
         </header>

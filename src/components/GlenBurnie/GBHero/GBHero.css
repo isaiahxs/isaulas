@@ -114,6 +114,13 @@
 }
 
 @media screen and (max-width: 1000px) {
+
+    .title,
+    .location,
+    .description {
+        text-align: center;
+    }
+
     .hero-section {
         flex-direction: column;
     }

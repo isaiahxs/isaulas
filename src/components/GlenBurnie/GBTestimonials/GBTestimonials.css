@@ -1,11 +1,12 @@
 .testimonials-section {
     padding: 30px;
+    padding-top: 0px;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .home-header-container {
