@@ -1,4 +1,6 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
+import { useLanguage } from '../../../LanguageContext';
+import { englishContent, spanishContent } from './content';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -21,6 +23,10 @@ import womans_style from '../../../assets/images/GBCuts/womans-style.png';
 import './GBGallery.css';
 
 export default function GBGallery() {
+    const { currentLanguage, setCurrentLanguage } = useLanguage();
+
+    const content = currentLanguage === 'english' ? englishContent : spanishContent;
+
     const settings = {
         dots: true,
         infinite: true,
@@ -48,7 +54,7 @@ export default function GBGallery() {
     return (
         <div className='gallery-section'>
             <div className='home-header-container'>
-                <h1 className='home-header'>Featured Gallery</h1>
+                <h1 className='home-header'>{content.homeHeader}</h1>
             </div>
 
             <div className="slider-container">

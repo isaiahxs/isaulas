@@ -14,7 +14,7 @@
     flex-direction: row;
 }
 
-/* 
+/*
 .gallery-image {
     border: 2px solid black;
     width: 350px;
@@ -106,12 +106,12 @@
 
 @media screen and (min-width: 775px) {
     .slick-next {
-        top: 381px !important;
+        top: 384px !important;
         right: 33% !important;
     }
 
     .slick-prev {
-        top: 381px !important;
+        top: 384px !important;
         left: 33% !important;
     }
 }
