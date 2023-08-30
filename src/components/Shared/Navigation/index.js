@@ -43,26 +43,26 @@ export default function Navigation() {
 
     return (
         <nav className={navBarClass}>
-            <ul className='nav-options'>
-                {/* <Link to='/'> */}
-                <img src={logo} className='small-logo' alt="Isaula's Logo" onClick={() => scrollToTop()} />
-                {/* </Link> */}
+            <div className='nav-options'>
+                <div className='nav-logo-container'>
+                    <img src={logo} className='small-logo' alt="Isaula's Logo" onClick={() => scrollToTop()} />
+                </div>
 
-                <li>
+                <div>
                     <Link to='/'>
                         <button className={`nav-button ${location.pathname === '/' ? 'active' : ''}`}>
                             Glen Burnie
                         </button>
                     </Link>
-                </li>
+                </div>
 
-                <li>
+                <div>
                     <Link to='/annapolis'>
                         <button className={`nav-button ${location.pathname === '/annapolis' ? 'active' : ''}`}>
                             Annapolis
                         </button>
                     </Link>
-                </li>
+                </div>
 
                 {/* <li>
                     <button className='nav-button' onClick={() => scrollToSection('services')}>
@@ -75,7 +75,7 @@ export default function Navigation() {
                         {content.reviews}
                     </button>
                 </li> */}
-            </ul>
+            </div>
         </nav>
     )
 }

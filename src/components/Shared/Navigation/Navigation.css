@@ -4,7 +4,7 @@
     align-items: center;
     margin: auto;
     width: 100%;
-    padding: 0px 10px;
+    padding: 20px 0px;
     background-color: #222222;
     transition: transform 0.7s ease;
     position: fixed;
@@ -29,6 +29,7 @@
     max-width: 1000px;
     width: 100%;
     padding: 0px 15px;
+    margin: auto;
 }
 
 .small-logo {
@@ -37,12 +38,19 @@
     cursor: pointer;
 }
 
+.nav-logo-container {
+    display: flex;
+    justify-content: center;
+    width: 136px;
+}
+
 .nav-button {
     background: none;
     color: white;
     border: none;
     font-weight: 500;
     border: 2px solid white;
+    width: 136px;
 }
 
 .nav-button.active {
@@ -55,4 +63,19 @@
     background-color: white;
     color: #222222;
     font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .nav-bar {
+        padding: 15px 0px;
+    }
+
+    .nav-button {
+        width: 110px;
+        font-size: 1.0rem;
+    }
+
+    .nav-logo-container {
+        width: 110px;
+    }
 }
