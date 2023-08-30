@@ -14,12 +14,12 @@ export const englishContent = {
 export const spanishContent = {
     title: "Isaula's Beauty Salon",
     location: 'Glen Burnie',
-    description: "Sirviendo a la comunidad durante más de 12 años, Isaula's Beauty Salon ofrece una amplia gama de servicios de belleza, incluyendo cortes de cabello, estilismo, coloración y más.",
+    description: "Sirviendo a la comunidad por más de 12 años, Isaula's Beauty Salon ofrece una amplia variedad de servicios de belleza, incluyendo cortes de cabello, estilismo, coloración y mucho más.",
     description2: 'Nuestro equipo de estilistas experimentados está dedicado a brindarle la mejor experiencia posible.',
     hours: 'Lunes - Sábado: 9:00am a 8:00pm',
     hoursSunday: 'Domingo: 9:00am a 4:00pm',
     viewServices: 'Ver Servicios',
-    viewReviews: 'Ver Reseñas',
-    leaveReview: '¡Califica tu Visita!',
-    contactHeading: 'Contáctanos'
+    viewReviews: 'Ver Testimonios',
+    leaveReview: '¡Califique su Visita!',
+    contactHeading: 'Contáctenos'
 };

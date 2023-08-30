@@ -56,50 +56,50 @@ export const englishContent = {
 };
 
 export const spanishContent = {
-    testimonialsHeader: "Testimonios Reales",
-    rateYourVisitButton: "¡Califica Tu Visita!",
+    testimonialsHeader: "Testimonios Auténticos",
+    rateYourVisitButton: "¡Califique Su Visita!",
     testimonials: [
         {
             reviewerName: "Dennis",
             imgSrc: dennis,
-            reviewText: "Excelente lugar para un corte de cabello para hombres. A veces hay que esperar un poco, pero cuando estás en la silla, recibes la misma atención al detalle que cualquier otra persona. La limpieza es asombrosa. Por lo general, tengo que ir a casa y ducharme, luego se ve bien al día siguiente. Aquí es simplemente limpio e impecable cuando sales. Solo en español, pero 2-3 personas allí hablan inglés para traducir. No te intimides por eso; ¡chécalo!",
+            reviewText: "Excelente lugar para un corte de cabello para hombres. A veces hay que esperar un poco, pero cuando estás en la silla, recibes la misma atención al detalle que cualquier otra persona. La limpieza es asombrosa. Por lo general, tengo que ir a casa y bañarme, luego se ve bien al día siguiente. Aquí es simplemente limpio e impecable cuando sales. Solo en español, pero 2-3 personas allí hablan inglés para traducir. No te intimides por eso; ¡échale un ojo!",
             reviewLink: "https://g.co/kgs/KPi3Uz",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Jeff Smith",
             imgSrc: jeff,
             reviewText: "Gran lugar para cortes.\n\nMuy pocas veces hay que esperar.\n\nMe hago un corte con un afeitado de navaja recta.",
             reviewLink: "https://g.co/kgs/Pq51zc",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Kevin Plessner",
             imgSrc: kevin,
             reviewText: "Entré al azar en este lugar mientras esperaba mi auto en Firestone (que está al lado). Hicieron un trabajo impresionante en mi cabello, usaron una navaja real para el borde de mi cuello y cabeza (lo que no esperaba), fueron muy amables y, lo mejor de todo, ¡fue barato!\n\nRecomiendo mucho este lugar, volveré.",
             reviewLink: "https://g.co/kgs/o2PZ6d",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Francisco Lozano",
             imgSrc: francisco,
             reviewText: "¡Excelente servicio!",
             reviewLink: "https://g.co/kgs/VNTz67",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Douglas A",
             imgSrc: douglas,
             reviewText: "Servicio realmente bueno y profesional.",
             reviewLink: "https://g.co/kgs/hPuzev",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Chris Schlichting",
             imgSrc: chris,
             reviewText: "El único lugar donde permito que me corten el cabello. Cortes de pelo de primera categoría que simplemente no puedes encontrar. ¡Pregunta por Luis, él se encargará de ti!",
             reviewLink: "https://g.co/kgs/h1fKke",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
     ]
 };

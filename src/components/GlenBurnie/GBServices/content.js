@@ -29,10 +29,10 @@ export const englishContent = {
 
 export const spanishContent = {
     homeHeader: "Nuestros Servicios",
-    servicesSubheading: "Primero llegado, primero servido. Citas disponibles.",
+    servicesSubheading: "Atendemos por orden de llegada. Citas disponibles.",
     femaleCuts: {
         heading: "Estilos para Mujeres",
-        subheading: "Contáctanos para detalles de consulta y precios",
+        subheading: "Contáctenos para detalles de consulta y precios",
         listItems: [
             "Cortes de cabello $30",
             "Alisado de Keratina",
