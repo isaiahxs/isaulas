@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { useLanguage } from '../../../LanguageContext';
 import { englishContent, spanishContent } from './content';
 import Navigation from '../../Shared/Navigation';
@@ -30,11 +30,14 @@ export default function GBHero() {
         <header className='header-container'>
             <div className='hero-section'>
                 <div className='hero-information'>
-                <button className='language-toggle-button' onClick={toggleLanguage}>
-                {currentLanguage === 'english' ? 'Español' : 'English'}
-            </button>
+                    {/* <button className='language-toggle-button' onClick={toggleLanguage}>
+                        {currentLanguage === 'english' ? 'Español' : 'English'}
+                    </button> */}
                     <h1 className='title'>{content.title}</h1>
                     <h2 className='location'>{content.location}</h2>
+                    <button className='language-toggle-button' onClick={toggleLanguage}>
+                        {currentLanguage === 'english' ? 'Español' : 'English'}
+                    </button>
                     {/* <h3 className='description urbanist'>Experience the beauty and elegance of our salon.</h3> */}
 
                     <div className='hero-descriptions-container'>

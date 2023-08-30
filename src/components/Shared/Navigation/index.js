@@ -1,35 +1,35 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useLanguage } from '../../../LanguageContext';
+import { englishContent, spanishContent } from './content';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/icons/scissors-comb-white.png';
 import './Navigation.css'
 
 export default function Navigation() {
+    const { currentLanguage, setCurrentLanguage } = useLanguage();
+    const content = currentLanguage === 'english' ? englishContent : spanishContent;
     const [lastScrollPos, setLastScrollPos] = useState(0);
+    const [isScrollingDown, setIsScrollingDown] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollPos = window.pageYOffset;
-            const isScrollingDown = currentScrollPos > lastScrollPos;
-            const navBar = document.querySelector('.nav-bar');
 
-            if (isScrollingDown) {
-                // User is scrolling down, hide the navigation bar
-                navBar.style.transform = 'translateY(-100%)';
+            if (currentScrollPos > lastScrollPos) {
+                setIsScrollingDown(true);
             } else {
-                // User is scrolling up, show the navigation bar
-                navBar.style.transform = 'translateY(0)';
+                setIsScrollingDown(false);
             }
 
-            // Remember the current scroll position for the next scroll event
             setLastScrollPos(currentScrollPos);
         };
 
-        // Add the scroll event listener
         window.addEventListener('scroll', handleScroll);
 
-        // Cleanup function
         return () => window.removeEventListener('scroll', handleScroll);
     }, [lastScrollPos]);
+
+    const navBarClass = isScrollingDown ? 'nav-bar hidden' : 'nav-bar';
 
     const scrollToSection = (sectionId) => {
         const sectionElement = document.getElementById(sectionId);
@@ -37,7 +37,7 @@ export default function Navigation() {
     };
 
     return (
-        <nav className='nav-bar'>
+        <nav className={navBarClass}>
             <ul className='nav-options'>
                 <Link to='/'>
                     <img src={logo} className='small-logo' alt="Isaula's Logo" />
@@ -53,21 +53,15 @@ export default function Navigation() {
 
                 <li>
                     <button className='nav-button' onClick={() => scrollToSection('services')}>
-                        Services
+                        {content.services}
                     </button>
                 </li>
 
                 <li>
                     <button className='nav-button' onClick={() => scrollToSection('reviews')}>
-                        Reviews
+                        {content.reviews}
                     </button>
                 </li>
-                {/* <li>
-                    <button className='contact' onClick={() => scrollToSection('contact')}>
-                        Contact
-                    </button> */}
-                {/* <a href='/contact'>Contact</a> */}
-                {/* </li> */}
             </ul>
         </nav>
     )
