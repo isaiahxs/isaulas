@@ -2,7 +2,6 @@ import { useLanguage } from '../../../LanguageContext';
 import { englishContent, spanishContent } from './content';
 import { Link } from 'react-router-dom';
 import star from '../../../assets/icons/star-icon.png';
-import './GBTestimonials.css';
 
 export default function GBTestimonials() {
     const { currentLanguage, setCurrentLanguage } = useLanguage();

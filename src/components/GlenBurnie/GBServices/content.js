@@ -1,6 +1,6 @@
 export const englishContent = {
     homeHeader: "Our Services",
-    servicesSubheading: "First come, first served. Appointments available.",
+    servicesSubheading: "We will assist customers in the order they arrive. Appointments available.",
     femaleCuts: {
         heading: "Women's Styles",
         subheading: "Contact us for consultation and pricing details",

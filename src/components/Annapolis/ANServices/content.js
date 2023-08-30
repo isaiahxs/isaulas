@@ -1,6 +1,6 @@
 export const englishContent = {
     homeHeader: "Our Services",
-    servicesSubheading: "First come, first served.",
+    servicesSubheading: "We will assist customers in the order they arrive.",
     maleCuts: {
         heading: "Men's Styles",
         listItems: [
@@ -14,7 +14,7 @@ export const englishContent = {
 
 export const spanishContent = {
     homeHeader: "Nuestros Servicios",
-    servicesSubheading: "Primero llegado, primero servido",
+    servicesSubheading: "Atendemos por orden de llegada.",
     maleCuts: {
         heading: "Estilos para Hombres",
         listItems: [

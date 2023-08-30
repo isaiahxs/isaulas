@@ -20,7 +20,6 @@ import line_behind from '../../../assets/images/GBCuts/line-behind.jpg';
 // import red_dye from '../../../assets/images/GBCuts/red-dye.jpg';
 import side_lines from '../../../assets/images/GBCuts/side-lines.png';
 // import womans_style from '../../../assets/images/GBCuts/womans-style.png';
-import './ANGallery.css';
 
 export default function GBGallery() {
     const { currentLanguage, setCurrentLanguage } = useLanguage();

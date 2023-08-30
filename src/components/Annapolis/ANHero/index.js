@@ -10,7 +10,6 @@ import map_pin from '../../../assets/icons/map-pin.svg';
 import phone from '../../../assets/icons/phone-icon.svg';
 import facebook from '../../../assets/icons/facebook-logo.svg';
 import instagram from '../../../assets/icons/instagram-logo.svg';
-import './GBHero.css';
 
 export default function GBHero() {
     const { currentLanguage, setCurrentLanguage } = useLanguage();

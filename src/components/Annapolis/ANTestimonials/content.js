@@ -56,49 +56,49 @@ export const englishContent = {
 
 export const spanishContent = {
     testimonialsHeader: "Testimonios Reales",
-    rateYourVisitButton: "¡Califica tu Visita!",
+    rateYourVisitButton: "¡Califique Su Visita!",
     testimonials: [
         {
             reviewerName: "Javery Moreno",
             imgSrc: javery,
             reviewText: "Desde Texas y necesitaba un corte urgentemente. Un amigo me recomendó este lugar y cuando entré, Jesús, quien es barbero allí, se encargó de mí. Solo quiero decir que este hombre corta el cabello muy bien y parece ser una persona increíble en general. ¡Ojalá hubiera más como él en mi ciudad!",
             reviewLink: "https://g.co/kgs/1StSJQ",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Ingrid Sandy",
             imgSrc: ingrid,
             reviewText: "He estado yendo a este lugar durante 2 años. Mis hijos siempre salen del lugar con un corte de cabello genial y caras felices.",
             reviewLink: "https://g.co/kgs/2LXwhf",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "J B",
             imgSrc: jb,
             reviewText: "Son muy buenos. Si hay que esperar, vale la pena quedarse.",
             reviewLink: "https://g.co/kgs/FTC61g",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Jose Mira",
             imgSrc: jose,
             reviewText: "Muy bueno.",
             reviewLink: "https://g.co/kgs/cpTpcV",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Claudio Hernandez",
             imgSrc: claudio,
             reviewText: "Está bien.",
             reviewLink: "https://g.co/kgs/aZXULR",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
         {
             reviewerName: "Ulises Quintanilla",
             imgSrc: ulises,
             reviewText: "",
             reviewLink: "https://g.co/kgs/HHnMNT",
-            buttonText: 'Link de Revisión'
+            buttonText: 'Enlace de Reseña'
         },
     ]
 };
