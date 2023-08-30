@@ -6,7 +6,7 @@
     width: 100%;
     padding: 0px 10px;
     background-color: #222222;
-    transition: transform 0.4s ease;
+    transition: transform 0.7s ease;
     position: fixed;
     z-index: 10;
 }

@@ -88,8 +88,14 @@ export default function GBHero() {
                                 <a href="https://www.google.com/maps/place/Isaula's+Beauty+Salon+LLC/@39.1592102,-76.6207809,15z/data=!4m6!3m5!1s0x89b7fcdd79a6aeed:0xa55be85257c1581f!8m2!3d39.1592102!4d-76.6207809!16s%2Fg%2F1v8l0hr7?entry=ttu"
                                     target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
-                                        <img src={map_pin} className='footer-icon' alt='Map Pin Icon' />
-                                        <p className='footer-icon-description'>7574 Ritchie Hwy, Glen Burnie, MD 21061</p>
+                                        {/* <img src={map_pin} className='footer-icon GB-map-icon' alt='Map Pin Icon' /> */}
+                                        <p className='footer-icon-description'>
+                                            {/* <div className='map-span'> */}
+                                            <img src={map_pin} className='footer-icon GB-map-icon' alt='Map Pin Icon' />
+                                            {/* </div> */}
+
+                                            7574 Ritchie Hwy, Glen Burnie, MD 21061
+                                        </p>
                                     </div>
                                 </a>
 

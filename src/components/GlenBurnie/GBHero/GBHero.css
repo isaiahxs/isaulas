@@ -109,6 +109,12 @@
     bottom: 0px;
 }
 
+/*
+.map-span {
+    margin-right: 5px;
+    margin-top: 5px;
+} */
+
 .contact-heading-container {
     display: flex;
     justify-content: center;
