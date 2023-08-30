@@ -1,3 +1,5 @@
+import { useLanguage } from '../../../LanguageContext';
+import { englishContent, spanishContent } from './content';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/icons/scissors-comb-white.png';
 import map_pin from '../../../assets/icons/map-pin.svg';
@@ -8,6 +10,9 @@ import instagram from '../../../assets/icons/instagram-logo.svg';
 import './Footer.css';
 
 export default function Footer() {
+    const { currentLanguage, setCurrentLanguage } = useLanguage();
+    const content = currentLanguage === 'english' ? englishContent : spanishContent;
+
     return (
         <footer className='footer-container'>
             <div className='footer-section'>
@@ -16,22 +21,6 @@ export default function Footer() {
                         <img src={logo} className='big-logo' alt="Big Isaula's Logo" />
                     </Link>
                 </section>
-
-                {/* <section className='first-footer-section'>
-                    <ul className='footer-options-container'>
-                        <li className='footer-heading'>
-                            Navigation
-                        </li>
-                        <div className='footer-options'>
-                            <li>
-                                <a href='/'>Home</a>
-                            </li>
-                            <li>
-                                <a href='/about'>About</a>
-                            </li>
-                        </div>
-                    </ul>
-                </section> */}
 
                 <section className='second-footer-section'>
                     <ul className='footer-options-container'>
@@ -48,24 +37,22 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                {/* <a href='/work-in-progress'> */}
                                 <div className='footer-icon-container'>
                                     <img src={phone} className='footer-icon' alt='Phone Icon' />
                                     <p className='footer-icon-description'>
                                         <a href='tel:+14107606422'>(410) 760-6422</a>
                                     </p>
                                 </div>
-                                {/* </a> */}
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
-                                    <p className='footer-icon-description'>Mon - Sat: 9:00am - 8:00pm
+                                    <p className='footer-icon-description'>{content.GBtimes}
                                     </p>
                                 </div>
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
-                                    <p className='footer-icon-description'>Sun: 9:00am - 4:00pm
+                                    <p className='footer-icon-description'>{content.GBtimesSunday}
                                     </p>
                                 </div>
                             </li>
@@ -97,13 +84,13 @@ export default function Footer() {
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
-                                    <p className='footer-icon-description'>Mon - Sat: 8:00am - 8:00pm
+                                    <p className='footer-icon-description'>{content.ANtimes}
                                     </p>
                                 </div>
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
-                                    <p className='footer-icon-description'>Sun: 8:00am - 5:00pm
+                                    <p className='footer-icon-description'>{content.ANtimesSunday}
                                     </p>
                                 </div>
                             </li>
@@ -114,7 +101,7 @@ export default function Footer() {
                 <section className='fourth-footer-section'>
                     <ul className='footer-options-container'>
                         <li className='footer-heading'>
-                            Social Media
+                            {content.socials}
                         </li>
 
                         <div className='footer-options'>
@@ -140,7 +127,7 @@ export default function Footer() {
 
             </div >
             <div className='credits-container'>
-                <p className='credits-created-by'>Website designed & created by</p>
+                <p className='credits-created-by'>{content.credits}</p>
                 <a href='https://www.isaiahxs.com/' target='_blank' rel='noopener noreferrer' className='isaiah'>
                     Isaiah Sinnathamby
                 </a>

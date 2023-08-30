@@ -80,7 +80,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 135px;
+    /* width: 100%; */
 }
 
 .my-review-link-button {
