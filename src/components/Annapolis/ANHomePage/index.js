@@ -5,12 +5,12 @@ import ANGallery from '../ANGallery';
 import ANServices from '../ANServices';
 import ANTestimonials from '../ANTestimonials';
 
-export default function GBHomePage() {
+export default function ANHomePage() {
     return (
         <div>
             <Navigation />
 
-            <ANHero />
+            <ANHero id='hero' />
 
             <ANGallery />
 

@@ -9,17 +9,32 @@ import facebook from '../../../assets/icons/facebook-logo.svg';
 import instagram from '../../../assets/icons/instagram-logo.svg';
 import './Footer.css';
 
+
+{/* <li>
+                <button className='nav-button' onClick={() => scrollToSection('services')}>
+                    {content.services}
+                </button>
+            </li> */}
 export default function Footer() {
     const { currentLanguage, setCurrentLanguage } = useLanguage();
     const content = currentLanguage === 'english' ? englishContent : spanishContent;
+
+    const scrollToSection = (sectionId) => {
+        const sectionElement = document.getElementById(sectionId);
+        sectionElement.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     return (
         <footer className='footer-container'>
             <div className='footer-section'>
                 <section className='logo-section'>
-                    <Link to='/'>
-                        <img src={logo} className='big-logo' alt="Big Isaula's Logo" />
-                    </Link>
+                    {/* <Link to='/'> */}
+                    <img src={logo} className='big-logo' alt="Big Isaula's Logo" onClick={() => scrollToTop()} />
+                    {/* </Link> */}
                 </section>
 
                 <section className='second-footer-section'>

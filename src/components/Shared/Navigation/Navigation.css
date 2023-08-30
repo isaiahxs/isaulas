@@ -34,6 +34,7 @@
 .small-logo {
     height: 52px;
     width: auto;
+    cursor: pointer;
 }
 
 .nav-button {
@@ -42,6 +43,12 @@
     border: none;
     font-weight: 500;
     border: 2px solid white;
+}
+
+.nav-button.active {
+    background-color: white;
+    color: #222222;
+    font-weight: bold;
 }
 
 .nav-button:hover {

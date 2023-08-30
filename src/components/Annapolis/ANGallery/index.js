@@ -7,20 +7,20 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import behind_lines from '../../../assets/images/GBCuts/behind-lines.png';
 import blade from '../../../assets/images/GBCuts/blade.jpg';
-import blue_dye from '../../../assets/images/GBCuts/blue-dye.jpg';
+// import blue_dye from '../../../assets/images/GBCuts/blue-dye.jpg';
 import client_cut from '../../../assets/images/GBCuts/client-cut.png';
-import curls from '../../../assets/images/GBCuts/curls.jpg';
+// import curls from '../../../assets/images/GBCuts/curls.jpg';
 import fade_behind from '../../../assets/images/GBCuts/fade-behind.png';
 // import fili from '../../../assets/images/GBCuts/fili.jpg';
 import heart_design from '../../../assets/images/GBCuts/heart-design.png';
-import highlight_curls from '../../../assets/images/GBCuts/highlight-curls.jpg';
+// import highlight_curls from '../../../assets/images/GBCuts/highlight-curls.jpg';
 import kids_haircut from '../../../assets/images/GBCuts/kids-haircut.png';
 import line_behind from '../../../assets/images/GBCuts/line-behind.jpg';
-import makeup from '../../../assets/images/GBCuts/makeup.png';
-import red_dye from '../../../assets/images/GBCuts/red-dye.jpg';
+// import makeup from '../../../assets/images/GBCuts/makeup.png';
+// import red_dye from '../../../assets/images/GBCuts/red-dye.jpg';
 import side_lines from '../../../assets/images/GBCuts/side-lines.png';
-import womans_style from '../../../assets/images/GBCuts/womans-style.png';
-import './GBGallery.css';
+// import womans_style from '../../../assets/images/GBCuts/womans-style.png';
+import './ANGallery.css';
 
 export default function GBGallery() {
     const { currentLanguage, setCurrentLanguage } = useLanguage();
@@ -62,27 +62,27 @@ export default function GBGallery() {
                     <div className='gallery-image-container'>
                         <img src={behind_lines} alt='Line design haircut' className='gallery-image' />
                     </div>
-                    <div className='gallery-image-container'>
+                    {/* <div className='gallery-image-container'>
                         <img src={womans_style} alt="Curled and dyed woman's hair" className='gallery-image' />
-                    </div>
-                    <div className='gallery-image-container'>
+                    </div> */}
+                    {/* <div className='gallery-image-container'>
                         <img src={red_dye} alt='Red dyed haircut' className='gallery-image' />
-                    </div>
+                    </div> */}
                     <div className='gallery-image-container'>
                         <img src={blade} alt='Stylist shaving a beard' className='gallery-image' />
                     </div>
-                    <div className='gallery-image-container'>
+                    {/* <div className='gallery-image-container'>
                         <img src={highlight_curls} alt='Curled and dyed hair' className='gallery-image' />
-                    </div>
-                    <div className='gallery-image-container'>
+                    </div> */}
+                    {/* <div className='gallery-image-container'>
                         <img src={blue_dye} alt='Blue hair dye haircut' className='gallery-image' />
-                    </div>
+                    </div> */}
                     <div className='gallery-image-container'>
                         <img src={client_cut} alt="Barber cutting customer's hair" className='gallery-image' />
                     </div>
-                    <div className='gallery-image-container'>
+                    {/* <div className='gallery-image-container'>
                         <img src={curls} alt="Stylist curling customer's hair" className='gallery-image' />
-                    </div>
+                    </div> */}
                     <div className='gallery-image-container'>
                         <img src={fade_behind} alt='Fade haircut from behind' className='gallery-image' />
                     </div>
@@ -96,9 +96,9 @@ export default function GBGallery() {
                     <div className='gallery-image-container'>
                         <img src={line_behind} alt='Line design from behind' className='gallery-image' />
                     </div>
-                    <div className='gallery-image-container'>
+                    {/* <div className='gallery-image-container'>
                         <img src={makeup} alt='Customer with makeup applied and hair curled' className='gallery-image' />
-                    </div>
+                    </div> */}
 
                     <div className='gallery-image-container'>
                         <img src={side_lines} alt='Line design on the side' className='gallery-image' />

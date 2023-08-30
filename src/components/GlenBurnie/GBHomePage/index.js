@@ -10,7 +10,7 @@ export default function GBHomePage() {
         <div>
             <Navigation />
 
-            <GBHero />
+            <GBHero id='hero' />
 
             <GBGallery />
 
