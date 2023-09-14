@@ -98,12 +98,14 @@ export default function GBHero() {
                                     </div>
                                 </a>
 
-                                <div className='footer-icon-container'>
-                                    <img src={phone} className='footer-icon' alt='Phone Icon' />
-                                    <p className='footer-icon-description'>
-                                        <a href='tel:+14107606422'>(410) 266-8950</a>
-                                    </p>
-                                </div>
+                                <a href='tel:+14107606422'>
+                                    <div className='footer-icon-container'>
+                                        <img src={phone} className='footer-icon' alt='Phone Icon' />
+                                        <p className='footer-icon-description'>
+                                            (410) 266-8950
+                                        </p>
+                                    </div>
+                                </a>
 
                                 <a href="https://www.facebook.com/IsaulasBeautySalonII" target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>

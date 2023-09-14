@@ -55,12 +55,14 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <div className='footer-icon-container'>
-                                    <img src={phone} className='footer-icon' alt='Phone Icon' />
-                                    <p className='footer-icon-description'>
-                                        <a href='tel:+14107606422'>(410) 760-6422</a>
-                                    </p>
-                                </div>
+                                <a href='tel:+14107606422'>
+                                    <div className='footer-icon-container'>
+                                        <img src={phone} className='footer-icon' alt='Phone Icon' />
+                                        <p className='footer-icon-description'>
+                                            (410) 760-6422
+                                        </p>
+                                    </div>
+                                </a>
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
@@ -96,12 +98,14 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <div className='footer-icon-container'>
-                                    <img src={phone} className='footer-icon' alt='Phone Icon' />
-                                    <p className='footer-icon-description'>
-                                        <a href='tel:+14102668950'>(410) 266-8950</a>
-                                    </p>
-                                </div>
+                                <a href='tel:+14102668950'>
+                                    <div className='footer-icon-container'>
+                                        <img src={phone} className='footer-icon' alt='Phone Icon' />
+                                        <p className='footer-icon-description'>
+                                            (410) 266-8950
+                                        </p>
+                                    </div>
+                                </a>
                             </li>
                             <li>
                                 <div className='footer-icon-container'>
