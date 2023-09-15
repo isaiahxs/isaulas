@@ -51,7 +51,7 @@
     border: none;
     font-weight: 500;
     border: 2px solid white;
-    width: 136px;
+    width: 145px;
 }
 
 .nav-button.active {
@@ -67,10 +67,11 @@
 }
 
 .nav-name {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: white;
     text-align: center;
     width: 250px;
+    font-weight: 500;
 }
 
 .hamburger-menu {
@@ -138,22 +139,30 @@
     color: white;
 }
 
-.x-button:hover {}
+.x-button:hover {
+    background-color: #a61033;
+}
 
 .panel-buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 530px;
+    height: 580px;
     align-items: center;
+}
+
+.panel-button {
+    font-size: 1.4rem;
 }
 
 .panel-logo {
     cursor: default !important;
+    margin: 0px !important;
+    /* margin-top: 20px !important; */
 }
 
 .panel-language-button {
-    width: 136px;
+    width: 145px;
     border-color: white;
     background-color: #222222;
     color: white;
@@ -162,6 +171,7 @@
 
 .panel-language-button:hover {
     /* border: 2px solid white; */
+    font-weight: bold;
     background-color: white;
     color: #222222;
 }
@@ -178,7 +188,7 @@
     }
 
     .nav-name {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .nav-logo-container {
