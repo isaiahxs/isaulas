@@ -130,7 +130,7 @@ export default function Navigation() {
 
                         <div>
                             <Link to='/'>
-                                <button className={`nav-button ${location.pathname === '/' ? 'active' : ''}`}>
+                                <button className={`nav-button panel-button ${location.pathname === '/' ? 'active' : ''}`}>
                                     Glen Burnie
                                 </button>
                             </Link>
@@ -138,14 +138,14 @@ export default function Navigation() {
 
                         <div>
                             <Link to='/annapolis'>
-                                <button className={`nav-button ${location.pathname === '/annapolis' ? 'active' : ''}`}>
+                                <button className={`nav-button panel-button ${location.pathname === '/annapolis' ? 'active' : ''}`}>
                                     Annapolis
                                 </button>
                             </Link>
                         </div>
 
                         <div>
-                            <button className='language-toggle-button panel-language-button' onClick={toggleLanguage}>
+                            <button className='language-toggle-button panel-language-button panel-button' onClick={toggleLanguage}>
                                 {currentLanguage === 'english' ? 'Español' : 'English'}
                             </button>
                         </div>
