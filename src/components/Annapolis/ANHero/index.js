@@ -20,9 +20,16 @@ export default function GBHero() {
 
     const content = currentLanguage === 'english' ? englishContent : spanishContent;
 
+    // const scrollToSection = (sectionId) => {
+    //     const sectionElement = document.getElementById(sectionId);
+    //     sectionElement.scrollIntoView({ behavior: 'smooth' });
+    // };
+
     const scrollToSection = (sectionId) => {
         const sectionElement = document.getElementById(sectionId);
-        sectionElement.scrollIntoView({ behavior: 'smooth' });
+        const yOffset = -60;
+        const topOffset = sectionElement.getBoundingClientRect().top + window.scrollY + yOffset;
+        window.scrollTo({ top: topOffset, behavior: 'smooth' });
     };
 
     return (
