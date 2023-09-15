@@ -33,7 +33,7 @@
 }
 
 .small-logo {
-    height: 52px;
+    height: 40px;
     width: auto;
     cursor: pointer;
 }
@@ -41,6 +41,7 @@
 .nav-logo-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 136px;
 }
 
@@ -65,14 +66,119 @@
     font-weight: bold;
 }
 
+.nav-name {
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    width: 250px;
+}
+
+.hamburger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px !important;
+    background-color: #222222;
+    border: none;
+    /* margin-bottom: 0px; */
+}
+
+.hamburger-menu:hover {
+    background-color: #222222;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 90;
+}
+
+.nav-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s all;
+    transform: translateX(100%);
+    padding: 25px;
+    background-color: #222222;
+    z-index: 100;
+}
+
+.nav-open {
+    width: 260px;
+    transform: translateX(0);
+}
+
+.nav-close {
+    transform: translateX(100%);
+}
+
+.x-button {
+    position: absolute;
+    background-color: #c6133e;
+    border-color: white;
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    right: 20px;
+    font-size: 1.0rem;
+    color: white;
+}
+
+.x-button:hover {}
+
+.panel-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 530px;
+    align-items: center;
+}
+
+.panel-logo {
+    cursor: default !important;
+}
+
+.panel-language-button {
+    width: 136px;
+    border-color: white;
+    background-color: #222222;
+    color: white;
+    font-weight: lighter;
+}
+
+.panel-language-button:hover {
+    /* border: 2px solid white; */
+    background-color: white;
+    color: #222222;
+}
+
 @media screen and (max-width: 480px) {
     .nav-bar {
         padding: 15px 0px;
     }
 
+    .panel-language-button,
     .nav-button {
-        width: 110px;
-        font-size: 1.0rem;
+        /* width: 110px; */
+        font-size: 1.1rem;
+    }
+
+    .nav-name {
+        font-size: 1.2rem;
     }
 
     .nav-logo-container {

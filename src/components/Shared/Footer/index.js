@@ -29,7 +29,7 @@ export default function Footer() {
     };
 
     return (
-        <footer className='footer-container'>
+        <footer className='footer-container' id='footer'>
             <div className='footer-section'>
                 <section className='logo-section'>
                     {/* <Link to='/'> */}
@@ -46,10 +46,12 @@ export default function Footer() {
                             <li>
                                 <a href="https://www.google.com/maps/place/Isaula's+Beauty+Salon+LLC/@39.1592102,-76.6207809,15z/data=!4m6!3m5!1s0x89b7fcdd79a6aeed:0xa55be85257c1581f!8m2!3d39.1592102!4d-76.6207809!16s%2Fg%2F1v8l0hr7?entry=ttu" target='_blank' rel='noopener noreferrer'>
                                     <div className='footer-icon-container'>
-                                        <img src={map_pin} className='footer-icon GB-map-icon' alt='Map Pin Icon' />
                                         <p className='footer-icon-description'>
-                                            {/* <img src={map_pin} className='footer-icon GB-map-icon' alt='Map Pin Icon' /> */}
-                                            7574 Ritchie Hwy, Glen Burnie, MD 21061
+                                            <span>
+                                                <img src={map_pin} className='footer-icon GB-map-icon' alt='Map Pin Icon' />
+                                                {/* <img src={map_pin} className='footer-icon GB-map-icon' alt='Map Pin Icon' /> */}
+                                                7574 Ritchie Hwy, Glen Burnie, MD 21061
+                                            </span>
                                         </p>
                                     </div>
                                 </a>
