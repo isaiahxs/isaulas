@@ -1,7 +1,9 @@
 export const englishContent = {
-    homeHeader: "Featured Gallery",
+    galleryHeader: "Featured Gallery",
+    gallerySubheading: "Click on an image to enlarge."
 }
 
 export const spanishContent = {
-    homeHeader: "Galería",
+    galleryHeader: "Galería",
+    gallerySubheading: "Haga clic en una imagen para agrandar."
 }
