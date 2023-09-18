@@ -111,6 +111,12 @@ export default function Navigation() {
 
                     <div className='panel-buttons'>
                         <div>
+                            <button className='language-toggle-button panel-language-button panel-button' onClick={toggleLanguage}>
+                                {currentLanguage === 'english' ? 'Español' : 'English'}
+                            </button>
+                        </div>
+
+                        <div>
                             <button className='nav-button panel-button' onClick={() => scrollToSection('services')}>
                                 {content.services}
                             </button>
@@ -144,11 +150,11 @@ export default function Navigation() {
                             </Link>
                         </div>
 
-                        <div>
+                        {/* <div>
                             <button className='language-toggle-button panel-language-button panel-button' onClick={toggleLanguage}>
                                 {currentLanguage === 'english' ? 'Español' : 'English'}
                             </button>
-                        </div>
+                        </div> */}
 
                         <div className='nav-logo-container'>
                             <img src={logo} className='big-logo panel-logo' alt="Isaula's Beauty Salon Logo" />

@@ -167,6 +167,7 @@
     background-color: #222222;
     color: white;
     font-weight: lighter;
+    margin-bottom: 0px !important;
 }
 
 .panel-language-button:hover {
