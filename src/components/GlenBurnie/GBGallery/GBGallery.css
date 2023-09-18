@@ -1,12 +1,5 @@
 .gallery-section {
-    /* max-width: 1000px; */
     margin: auto;
-}
-
-.gallery-outer-container {
-    overflow-x: scroll;
-    width: 100%;
-    white-space: nowrap;
 }
 
 .gallery-inner-container {
@@ -14,26 +7,15 @@
     flex-direction: row;
 }
 
-/*
-.gallery-image {
-    border: 2px solid black;
-    width: 350px;
-    height: auto;
-} */
-
-
 .slider-container .slick-slide img {
     border: 2px solid black;
 }
 
 .gallery-image {
     height: 350px;
-    /* width: 100%; */
 }
 
-.slick-arrow {
-    /* height: 80px; */
-}
+.slick-arrow {}
 
 .slick-next {
     right: 15px !important;
@@ -45,7 +27,7 @@
 
 .slick-next,
 .slick-prev {
-    z-index: 1;
+    /* z-index: 1; */
     top: 170px;
 }
 
@@ -53,6 +35,7 @@
 .slick-next:before {
     opacity: 1 !important;
     color: black;
+    /* z-index: 1; */
 }
 
 .slick-list {
@@ -79,9 +62,15 @@
 .slick-slider {
     display: flex;
     justify-content: center;
-    /* margin: auto; */
-    /* max-width: 350px; */
 }
+
+/* button::before {
+    margin-top: 7px !important;
+} */
+
+/* .slick-dots {
+    width: 250px !important;
+} */
 
 .slick-slider .slick-dots {
     max-width: 330px;
@@ -99,12 +88,17 @@
 
     .slick-prev {
         top: 381px !important;
-        /* left: 540px !important; */
         left: 40% !important;
     }
 }
 
 @media screen and (min-width: 775px) {
+    .slick-dots {
+        bottom: -7.5% !important;
+    }
+}
+
+@media screen and (min-width: 770px) {
     .slick-next {
         top: 384px !important;
         right: 33% !important;
@@ -114,22 +108,17 @@
         top: 384px !important;
         left: 33% !important;
     }
+
+    .slick-dots {
+        bottom: -12.5%;
+        width: 220px !important;
+    }
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 770px) {
     .slick-dots {
         bottom: -12%;
     }
-
-    /* .slick-next {
-        top: 422px !important;
-        right: 42% !important;
-    }
-
-    .slick-prev {
-        top: 422px !important;
-        left: 42% !important;
-    } */
 
     .slick-prev:before,
     .slick-next:before {
@@ -144,6 +133,5 @@
 
     .gallery-image {
         height: 300px;
-        /* padding: 20px; */
     }
 }
