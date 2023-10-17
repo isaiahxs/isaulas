@@ -82,7 +82,7 @@ export default function GBHomePage() {
                 <GBTestimonials />
             </div>
 
-            <div ref={footerRef} className='body-fade-in' id='contact'>
+            <div ref={footerRef} className='footer-fade-in' id='contact'>
                 <Footer />
             </div>
         </div>

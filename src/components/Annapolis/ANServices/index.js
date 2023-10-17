@@ -1,6 +1,6 @@
 import { useLanguage } from '../../../LanguageContext';
 import { englishContent, spanishContent } from './content';
-import './GBServices.css';
+// import './GBServices.css';
 
 export default function GBServices() {
     const { currentLanguage, setCurrentLanguage } = useLanguage();
