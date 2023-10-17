@@ -76,7 +76,7 @@ export default function Navigation() {
         if (sectionId === 'footer') {
             sectionElement.scrollIntoView({ behavior: 'smooth', block: 'end' });
         } else {
-            const yOffset = -60;
+            const yOffset = -80;
             const topOffset = sectionElement.getBoundingClientRect().top + window.scrollY + yOffset;
             window.scrollTo({ top: topOffset, behavior: 'smooth' });
             // sectionElement.scrollIntoView({ behavior: 'smooth' });
@@ -91,15 +91,15 @@ export default function Navigation() {
         <nav className='nav-bar'>
             <div className='nav-options'>
                 <div className='nav-logo-container'>
-                    <img src={logo} className='small-logo' alt="Isaula's Logo" onClick={() => scrollToTop()} />
+                    <img src={logo} className='small-logo fade-in' alt="Isaula's Logo" onClick={() => scrollToTop()} />
                 </div>
 
-                <div className='nav-name'>
+                <div className='nav-name fade-in'>
                     Isaula's Beauty Salon
                 </div>
 
                 <div className='nav-logo-container'>
-                    <button className='hamburger-menu' onClick={toggleNavOpen}>
+                    <button className='hamburger-menu fade-in' onClick={toggleNavOpen}>
                         <img src={hamburger} className='small-logo' alt='Hamburger Menu' />
                     </button>
                 </div>

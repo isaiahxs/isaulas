@@ -1,0 +1,10 @@
+.body-fade-in {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.body-fade-in.show {
+    opacity: 1;
+    transform: translateY(0px);
+}
