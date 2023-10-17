@@ -117,6 +117,12 @@ export default function Navigation() {
                         </div>
 
                         <div>
+                            <button className='nav-button panel-button' onClick={() => scrollToSection('gallery')}>
+                                {content.gallery}
+                            </button>
+                        </div>
+
+                        <div>
                             <button className='nav-button panel-button' onClick={() => scrollToSection('services')}>
                                 {content.services}
                             </button>

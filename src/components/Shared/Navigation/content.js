@@ -1,11 +1,13 @@
 export const englishContent = {
+    gallery: "Gallery",
     services: "Services",
     reviews: "Reviews",
     contact: "Contact",
 }
 
 export const spanishContent = {
+    gallery: "Galería",
     services: "Servicios",
-    reviews: "Reseñas",
+    reviews: "Testimonios",
     contact: "Contacto",
 }

@@ -154,15 +154,17 @@
     position: relative;
 }
 
-.view-reviews-hero {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.view-gallery-hero,
+.view-services-hero,
+.view-reviews-hero,
+.leave-review-hero {
+    width: 200px;
 }
 
 .view-services-hero,
 .view-reviews-hero,
 .leave-review-hero {
-    width: 200px;
+    margin-top: 5px;
 }
 
 .hero-image-container {

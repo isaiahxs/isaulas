@@ -31,7 +31,7 @@ export default function GBHero() {
 
     const scrollToSection = (sectionId) => {
         const sectionElement = document.getElementById(sectionId);
-        const yOffset = -60;
+        const yOffset = -80;
         const topOffset = sectionElement.getBoundingClientRect().top + window.scrollY + yOffset;
         window.scrollTo({ top: topOffset, behavior: 'smooth' });
     };
@@ -71,6 +71,10 @@ export default function GBHero() {
                     {/*Walk-ins are welcome, but appointments are preferred. We look forward to seeing you soon!*/}
 
                     <div className='hero-buttons-container fade2'>
+                        <button className='view-gallery-hero' onClick={() => scrollToSection('gallery')}>
+                            {content.viewGallery}
+                        </button>
+
                         <button className='view-services-hero' onClick={() => scrollToSection('services')}>
                             {content.viewServices}
                         </button>
