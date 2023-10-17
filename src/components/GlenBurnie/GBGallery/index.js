@@ -72,7 +72,8 @@ export default function GBGallery() {
     return (
         <div className='gallery-section'>
             <div className='home-header-container'>
-                <h1 className='home-header'>{content.homeHeader}</h1>
+                <h2 className='home-header'>{content.homeHeader}</h2>
+                <h3 className='home-subheading'>{content.homeSubheading}</h3>
             </div>
 
             <div className="slider-container">

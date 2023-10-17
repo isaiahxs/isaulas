@@ -1,5 +1,5 @@
 .services-section {
-    margin-top: 45px;
+    margin-top: 75px;
 }
 
 .services-container {
@@ -8,16 +8,15 @@
     flex-direction: column;
 }
 
-.services-heading {
+/* .services-heading {
     margin-bottom: 5px;
-}
+} */
 
-.services-subheading {
+/* .services-subheading {
     text-align: center;
     margin-top: 0px;
-    /* font-family: 'Urbanist', sans-serif; */
     padding: 0px 10px;
-}
+} */
 
 .services-lists {
     display: flex;
@@ -47,11 +46,13 @@
 
 .list-subheading {
     font-size: 1.2rem;
+    padding: 0px 10px;
     /* font-family: 'Urbanist', sans-serif; */
 }
 
 .style-list {
     border: 2px solid black;
+    margin: 20px 0px;
 }
 
 .style-list li {

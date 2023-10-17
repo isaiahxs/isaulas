@@ -9,8 +9,8 @@ export default function GBServices() {
     return (
         <div className="services-section">
             <div className="home-header-container services-container">
-                <h2 className="home-header services-heading">{content.homeHeader}</h2>
-                <h3 className='services-subheading'>{content.servicesSubheading}</h3>
+                <h2 className="home-header">{content.homeHeader}</h2>
+                <h3 className='home-subheading'>{content.servicesSubheading}</h3>
             </div>
 
             <div className='services-lists'>
